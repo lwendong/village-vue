@@ -163,10 +163,8 @@ const searchList = computed(() => {
     } else {
         return chatList.filter((item) => {
             let temp = item.nick
-            return (
-                temp.includes(chatData.searchKey) ||
-                temp.includes(chatData.searchKey)
-            )
+            return temp.includes(chatData.searchKey)
+            // || item.username.includes(chatData.searchKey)
         })
     }
 })

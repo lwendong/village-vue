@@ -146,8 +146,8 @@ const checkData = () => {
     height: 800px;
     border-radius: 75px;
     box-shadow: 28px 34px 14px #888888;
-    margin-left: 160px;
-    margin-top: 25px;
+    margin-left: 210px;
+    margin-top: 70px;
     position: absolute;
     z-index: 11;
 
